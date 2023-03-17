@@ -684,7 +684,7 @@ ul {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 
-@media (width:767px) {
+@media (max-width:767px) {
     .setting-page {
         grid-template-columns: minmax(100px, 1fr);
         margin-left: 10px;
